@@ -1,4 +1,4 @@
-export async function getData(endpoint) {
+export async function getData(endpoint:string) {
   try {
     const response = await fetch(endpoint, {
       cache: "no-store",
